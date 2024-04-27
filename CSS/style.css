@@ -1,0 +1,75 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#feedback {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.wrong-answer {
+    background-color: red !important;
+}
+
+.correct-answer {
+    background-color: green !important;
+}
+
+/* Increase font size for all elements */
+body {
+    font-size: 18px; /* Adjust the value as needed */
+  }
+  
+  /* Increase size of headings */
+  h1 {
+    font-size: 1.0em; /* Adjust the value as needed */
+  }
+  
+  /* Increase size of buttons */
+  .btn {
+    font-size: 1.8em; /* Adjust the value as needed */
+  }
+  
+  /* Increase size of container */
+  .container {
+    max-width: 90%; /* Adjust the value as needed */
+  }
+  
+  /* Increase size of feedback text */
+  #feedback {
+    font-size: 1.2em; /* Adjust the value as needed */
+  }
+  
+  /* Increase font size for the question */
+#question {
+    font-size: 2.5em; /* Adjust the value as needed */ color: blue;
+  }
+  
+  /* Decrease font size for the "Next Interval" button */
+  #nextBtn {
+    font-size: 1em; /* Adjust the value as needed */
+  }
+  /* Add margin around interval buttons */
+.btn {
+    margin: 5px; /* Adjust the value as needed */
+  }
+  
+  body {
+    background-image: url('img/pianokey_generated.jpg');
+    /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+    background-size: auto 109px;
+    /* Height of your image */
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    margin-top: 109px;
+    /* Height of your image */
+}
+
+#stats {
+    margin-top: 20px;
+    text-align: center;
+}

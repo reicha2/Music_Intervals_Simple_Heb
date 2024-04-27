@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>תרגול מרווחים של צלילים "לבנים"</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <style>
+        body {
+            background-image: url('img/pianokey_generated.jpg');
+            /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+            background-size: auto 109px;
+            /* Height of your image */
+            background-position: top center;
+            background-repeat: no-repeat;
+        }
+
+        .container {
+            margin-top: 109px;
+            /* Height of your image */
+        }
+
+        #stats {
+            margin-top: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>תרגול מרווחים של צלילים "לבנים"</h1>
+        <div id="question"></div>
+        <div id="options"></div>
+        <div id="feedback"></div>
+        <button id="nextBtn" class="btn btn-primary">שאלה הבאה</button>
+    </div>
+
+    <div id="stats">
+        <p>שאלות: <span id="totalQuestions">0</span></p>
+        <p>תשובות נכונות: <span id="correctAnswers">0</span></p>
+        <p>אחוז הצלחה: <span id="successPercentage">0%</span></p>
+        <button id="resetBtn" class="btn btn-danger">אתחל נתונים</button>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p style="font-size: 14px;">© כל הזכויות שמורות לאביעד רייך</p>
+        </div>
+    </footer>
+
+    <script src="JS/logic.js"></script>
+</body>
+
+</html>
